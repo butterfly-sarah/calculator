@@ -1,0 +1,115 @@
+/* div{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(250, 208, 236);
+    row-gap: 10px;
+    column-gap: 50px;
+    margin-top: 100px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10%;
+}
+
+input{
+    max-width: 80%;
+    flex: 0 0 80%;
+    height: 50px;
+    font-size: larger;
+}
+button{
+    max-width: 65px;
+    flex:0 0 80px;
+    height: 50px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:radial-gradient(rgb(244, 77, 197),rgb(248, 156, 216));
+    border: 0ch;
+    border-radius: 50%;
+    color: white;
+}
+button[name="="]{
+    max-width: 80%;
+    flex:0 0 80%;
+    border-radius: 0%;
+}
+button[name="/"],button[name="+"],button[name="-"],button[name="*"]{
+    background:radial-gradient(rgb(46, 154, 227),rgb(156, 217, 248));
+}
+input[type=reset]{
+    max-width: 65px;
+    flex:0 0 80px;
+    height: 50px;
+    font-size: larger;
+    background:radial-gradient(rgb(249, 35, 35),rgb(247, 147, 147));
+    border: 0ch;
+    border-radius: 50%;
+    color: white;
+
+} */
+body{
+    background-color: rgb(97, 206, 208);
+}
+
+div{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin-top: 100px;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+input{
+    max-width: 67%;
+    flex: 0 0 67%;
+    height: 65px;
+    font-size: larger;
+    border: 0ch;
+    border-radius: 2%;
+}
+button{
+    max-width: 65px;
+    flex:0 0 65px;
+    height: 65px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0ch;
+    border-radius: 3%;
+}
+
+input[type=reset]{
+    max-width: 65px;
+    flex:0 0 65px;
+    height: 65px;
+    font-size: larger;
+    border: 0ch;
+    border-radius: 3%;
+    background-color: rgb(255, 75, 75);
+}
+button:hover,input[type=reset]:hover{
+    border: 1px solid black;
+}
+#dark{
+    height: 30px;
+}
+#dark:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+#light{
+    height: 30px;
+    margin-left: 30px;
+}
+#light:hover{
+    cursor: pointer;
+    background-color: rgb(97, 206, 208);
+    color: white;
+    border: 1px solid white;
+}

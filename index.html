@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <script src="a.js"></script>
+    <title>Document</title>
+</head>
+<body style="display:flex ;justify-content:center" class="body">
+    <form action="" name="form1">
+        
+        <div>
+            <input type="text" name="input1">
+            <input type="reset" name="" id="" value="AC">
+            <button type="button" name="/" onclick="form1.input1.value +='/';">/</button>
+            <button type="button" name="b1" onclick="form1.input1.value +='1';">1</button>
+                <button type="button" name="b2" onclick="form1.input1.value +='2';">2</button>
+                <button type="button" name="b3" onclick="form1.input1.value +='3';">3</button>
+                <button type="button" name="+" onclick="form1.input1.value +='+';">+</button>
+                <button type="button" name="b4" onclick="form1.input1.value +='4';">4</button>
+                <button type="button" name="b5" onclick="form1.input1.value +='5';">5</button>
+                <button type="button" name="b6" onclick="form1.input1.value +='6';">6</button>
+                <button type="button" name="-" onclick="form1.input1.value +='-';">-</button>
+                <button type="button" name="b7" onclick="form1.input1.value +='7';">7</button>
+                <button type="button" name="b8" onclick="form1.input1.value +='8';">8</button>
+                <button type="button" name="b9" onclick="form1.input1.value +='9';">9</button>
+                
+                
+                <button type="button" name="*" onclick="form1.input1.value +='*';">*</button>
+            
+                <button type="button" name="." onclick="form1.input1.value +='.';">.</button>
+                
+                <button type="button" name="0" onclick="form1.input1.value +='0';">0</button>
+                
+                <button type="button" name="=" onclick="form1.input1.value= calc(input1.value)">=</button>
+            
+            
+        </div>
+        <input type="button" value="dark mode 🌙" id="dark" onclick='document.getElementsByClassName("body")[0].style.backgroundColor = "black";'>
+        <input type="button" value="light mode 🌕" id="light" onclick='document.getElementsByClassName("body")[0].style.backgroundColor = "rgb(97, 206, 208)";'>
+    </form>
+</body>
+</html>
